@@ -44,6 +44,14 @@ function ColorVariation() {
           ))}
         </div>
       </div>
+      <div className={styles.imageContainerTwo}>
+        <img
+          src={images[activeIndex]}
+          alt="Color variation display"
+          className={styles.img}
+          loading="lazy"
+        />
+      </div>
     </section>
   );
 }
