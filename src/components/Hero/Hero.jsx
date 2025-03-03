@@ -185,7 +185,7 @@ function Hero() {
         preload="auto"
       >
         <source
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd2d144f3c9923ee8c6df658bd54ae15d222bd7ca75b236059aad39972b6d198?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30"
+          src="public\aerial-video-of-the-sunrise-in-the-dolomites-mount-2023-11-27-05-26-37-utc.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
