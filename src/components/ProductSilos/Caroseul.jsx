@@ -7,7 +7,7 @@ function Caroseul() {
   return (
     <div className="caroseul">
       <img
-        src="public\6367-beige-basket-isolated-on-a-transparent-backg-2023-11-27-04-51-12-utc.jpg"
+        src="/6367-beige-basket-isolated-on-a-transparent-backg-2023-11-27-04-51-12-utc.jpg"
         className={styles.caroseulImage}
         style={{
           width: "100%",

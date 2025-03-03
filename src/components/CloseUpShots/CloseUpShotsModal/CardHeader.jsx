@@ -11,7 +11,7 @@ function CardHeader() {
   return (
     <header className={styles.cardHeader}>
       <img
-        src="public\view-of-a-modern-lounge-room-2024-05-27-19-05-26-utc.jpg"
+        src="/view-of-a-modern-lounge-room-2024-05-27-19-05-26-utc.jpg"
         alt="Header image"
         className={styles.headerImage}
       />
