@@ -1,18 +1,18 @@
 import React from "react";
-import styles from "./CloseUpShotsModal.module.css";
-import GridRow from "./GridRow";
+import styles from "./InputDesign.module.css";
+import GridRow from "./CloseUpShotsModal/GridRow";
 
 function ImageGrid() {
   return (
     <div className={styles.imageGrid}>
       <GridRow
         leftImage={{
-          src: "/view-of-a-modern-lounge-room-2023-11-28-03-19-28-utc.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/757460798c5941ec661aa53efa66472873e9dfeb",
           alt: "Interior 1",
           className: styles.gridImageSmall,
         }}
         rightImage={{
-          src: "/lounge-room-2024-01-22-18-27-58-utc.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/75e660bbada66b2473cce9800d2c75d15faa1499",
           alt: "Interior 2",
           className: styles.gridImageLarge,
         }}
@@ -20,12 +20,12 @@ function ImageGrid() {
 
       <GridRow
         leftImage={{
-          src: "/1.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/7af3068b78cc9b363029180115798fa0a1751d75",
           alt: "Interior 3",
           className: styles.gridImageLarge,
         }}
         rightImage={{
-          src: "/lounge-room-2024-01-22-18-27-58-utc (1).jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/a515958dc1e974fb210640f1161a756b78253d17",
           alt: "Interior 4",
           className: styles.gridImageSmall,
         }}
@@ -33,7 +33,7 @@ function ImageGrid() {
 
       <GridRow
         fullImage={{
-          src: "/lounge-room-2024-01-22-18-27-58-utc (2).jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d0105bf65c4fcde56242a40432018299cf082dd4",
           alt: "Interior 5",
           className: styles.gridImageFull,
         }}
@@ -41,12 +41,12 @@ function ImageGrid() {
 
       <GridRow
         leftImage={{
-          src: "/screw-for-furniture-assembly-close-up-2023-11-27-04-51-33-utc.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/68d14b024f4c68a50f2f9b7bf135b8185b0df7a7",
           alt: "Interior 6",
           className: styles.gridImageSmall,
         }}
         rightImage={{
-          src: "/stylish-chest-of-drawers-close-up-furniture-for-2024-01-18-18-28-52-utc.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/aa1b5d5b09469a40219843d50cb289e58d6fb90b",
           alt: "Interior 7",
           className: styles.gridImageLarge,
         }}
@@ -54,7 +54,7 @@ function ImageGrid() {
 
       <GridRow
         fullImage={{
-          src: "/2.jpg",
+          src: "https://cdn.builder.io/api/v1/image/assets/TEMP/364ec5650d48d1202d9b4acd1fac661f1bf38ac7",
           alt: "Interior 8",
           className: styles.gridImageFull,
         }}

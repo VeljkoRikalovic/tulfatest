@@ -11,7 +11,7 @@ function CardHeader() {
   return (
     <header className={styles.cardHeader}>
       <img
-        src="/view-of-a-modern-lounge-room-2024-05-27-19-05-26-utc.jpg"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9e8f58497881417171164ec69a8ad04cf7d5bad2"
         alt="Header image"
         className={styles.headerImage}
       />
