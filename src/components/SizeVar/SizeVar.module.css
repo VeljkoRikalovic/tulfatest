@@ -1,0 +1,52 @@
+.container {
+  color: #2a266a;
+  background-color: #f0f3fb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 80px;
+  font-family: SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (width<=991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.contentWrapper {
+  flex-direction: column;
+  width: 100%;
+  max-width: 924px;
+  min-height: 790px;
+  padding: 740px 70px 31px;
+  display: flex;
+  position: relative;
+}
+
+@media (width<=991px) {
+  .contentWrapper {
+    max-width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.backgroundImage {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.textContent {
+  position: relative;
+}

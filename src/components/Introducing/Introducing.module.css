@@ -1,0 +1,107 @@
+.cta1 {
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  /* This container holds both the image and any potential text */
+  /* Text elements will remain static while only the image zooms */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 100%;
+  overflow: hidden;
+  /* This container isolates the zoom effect to just the image */
+  /* Prevents the zoom from affecting layout of surrounding elements */
+  position: relative;
+}
+
+.img {
+  aspect-ratio: 1.54;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  transition: transform 0.3s ease-out;
+  will-change: transform;
+  /* The transform is applied only to the image element */
+  /* Any text outside this element will not be affected by the zoom */
+}
+
+.textContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  width: 80%;
+  max-width: 800px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #3a7bc8;
+}
+
+@media (width<=991px) {
+  .img {
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .textContent {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+
+@media (width<=767px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .ctaButton {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}

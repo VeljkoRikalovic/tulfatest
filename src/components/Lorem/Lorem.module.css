@@ -1,0 +1,45 @@
+.container {
+  background: linear-gradient(113deg, #2a266a 0%, #433e99 50%, #2a266a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem 0;
+}
+
+.textContent {
+  max-width: 80%;
+  font-family: SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+@media (width<=991px) {
+  .textContent {
+    padding: 0 40px;
+    font-size: 60px;
+  }
+}
+
+@media (width<=640px) {
+  .textContent {
+    padding: 0 20px;
+    font-size: 40px;
+  }
+}
+
+.whiteText {
+  color: #fff;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  display: block;
+}
+
+.grayText {
+  color: #fff9;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  display: block;
+}

@@ -1,0 +1,93 @@
+.mainContainer {
+  background-color: #fff;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 33.333px 218.667px;
+  display: flex;
+}
+@media (width<=991px) {
+  .heroSection {
+    padding: 30px 100px;
+  }
+}
+@media (width<=640px) {
+  .heroSection {
+    height: 300px;
+    padding: 20px;
+  }
+}
+.titleContainer {
+  justify-content: center;
+  align-items: center;
+  width: 671px;
+  display: flex;
+}
+@media (width<=991px) {
+  .titleContainer {
+    width: 100%;
+  }
+}
+.gradientTitle {
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #433e99 0%, #ef4b32 100%);
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+@media (width<=991px) {
+  .gradientTitle {
+    font-size: 48px;
+  }
+}
+@media (width<=640px) {
+  .gradientTitle {
+    font-size: 36px;
+  }
+}
+.middleSection {
+  background-color: #fff;
+  height: 853px;
+}
+@media (width<=640px) {
+  .middleSection {
+    height: 600px;
+  }
+}
+.bottomSection {
+  color: #2a266a;
+  text-align: center;
+  text-transform: capitalize;
+  max-width: 963px;
+  height: 400px;
+  padding: 108px 200px;
+  font-family: SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+@media (width<=991px) {
+  .bottomSection {
+    padding: 80px 60px;
+    font-size: 22px;
+  }
+}
+@media (width<=640px) {
+  .bottomSection {
+    height: auto;
+    padding: 60px 20px;
+    font-size: 18px;
+  }
+}
