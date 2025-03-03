@@ -13,7 +13,7 @@ function FabricVariation() {
         "https://cdn.builder.io/api/v1/image/assets/TEMP/1f937e39ab74dd1d5bdb3fb70e702e63c7d0eccafd9a431f3df742ac2b164138?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
       imageClassName: styles.img3,
       sofaImageSrc:
-        "/blue-sofa-on-white-background-2023-11-27-05-35-36-utc-Photoroom.png",
+        "/static/images/blue-sofa-on-white-background-2023-11-27-05-35-36-utc-Photoroom.png",
     },
     {
       name: "Leathers",
@@ -21,14 +21,15 @@ function FabricVariation() {
         "https://cdn.builder.io/api/v1/image/assets/TEMP/ee17465fd332ba4ef0f54ee06281f7529e0cfe9fdce6a0004824bc38a41cd208?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
       imageClassName: styles.img4,
       sofaImageSrc:
-        "/grey-sofa-on-white-background-2024-10-23-17-40-37-utc-Photoroom.png",
+        "public/static/images/grey-sofa-on-white-background-2024-10-23-17-40-37-utc-Photoroom.png",
     },
     {
       name: "Embroidery",
       imageSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/ff5583b11e5f3a6a095ac319dcef3a0b593133dbbd26db0ad1dbeb0facdfa560?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
       imageClassName: styles.img5,
-      sofaImageSrc: "/violet-sofa-2023-11-27-05-16-21-utc-Photoroom.png",
+      sofaImageSrc:
+        "static/images/violet-sofa-2023-11-27-05-16-21-utc-Photoroom.png",
     },
   ];
 

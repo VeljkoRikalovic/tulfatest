@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./CloseUpShots.module.css";
-import CloserLookButton from "./CloserLookButton";
 
 function MainImageSection({ imageUrl, altText }) {
   const [scale, setScale] = useState(1.2); // Start with a slightly zoomed in image

@@ -5,9 +5,9 @@ function ColorVariation() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/a3d5d3b79bae1a5b34e266c2b193985e041c1aef89d04b6ff8f8ea19656d665b?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/a3d5d3b79bae1a5b34e266c2b193985e041c1aef89d04b6ff8f8ea19656d665b?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
-    "https://cdn.builder.io/api/v1/image/assets/TEMP/a3d5d3b79bae1a5b34e266c2b193985e041c1aef89d04b6ff8f8ea19656d665b?placeholderIfAbsent=true&apiKey=038103d4a2ef4ba29434eeb22508eb30",
+    "public/static/images/orange-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-12-utc-Photoroom.png",
+    "public/static/images/violet-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-01-16-utc-Photoroom.png",
+    "public/static/images/yellow-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-07-utc-Photoroom.png",
   ];
 
   const handleDotClick = (index) => {

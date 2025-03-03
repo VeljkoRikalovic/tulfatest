@@ -18,7 +18,7 @@ function CloseUpShots() {
       </header>
 
       <MainImageSection
-        imageUrl="/view-of-a-modern-lounge-room-2023-11-28-03-19-28-utc.jpg"
+        imageUrl="\static\images\view-of-a-modern-lounge-room-2023-11-28-03-19-28-utc.jpg"
         altText="Brown leather couch with green pillows"
       />
       <footer className={styles.footerSection}>
