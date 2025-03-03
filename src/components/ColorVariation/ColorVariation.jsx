@@ -5,9 +5,9 @@ function ColorVariation() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    "public/static/images/orange-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-12-utc-Photoroom.png",
-    "public/static/images/violet-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-01-16-utc-Photoroom.png",
-    "public/static/images/yellow-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-07-utc-Photoroom.png",
+    "/static/images/orange-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-12-utc-Photoroom.png",
+    "/static/images/violet-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-01-16-utc-Photoroom.png",
+    "/static/images/yellow-sofa-with-pillows-isolated-on-white-backgro-2023-11-27-05-21-07-utc-Photoroom.png",
   ];
 
   const handleDotClick = (index) => {
@@ -31,6 +31,12 @@ function ColorVariation() {
               className={`${styles.dot} ${
                 index === activeIndex ? styles.activeDot : ""
               }`}
+              style={{
+                background:
+                  (index == 0 && "orange") ||
+                  (index == 1 && "#410c85") ||
+                  (index == 2 && "yellow"),
+              }}
               onClick={() => handleDotClick(index)}
               aria-label={`View color variation ${index + 1}`}
               aria-current={index === activeIndex ? "true" : "false"}
