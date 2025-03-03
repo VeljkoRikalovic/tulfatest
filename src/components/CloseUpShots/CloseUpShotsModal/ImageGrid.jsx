@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CloseUpShotsModal.module.css";
-import GridRow from "./CloseUpShotsModal/GridRow";
+import GridRow from "./GridRow";
 
 function ImageGrid() {
   return (
