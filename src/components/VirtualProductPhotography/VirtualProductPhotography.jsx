@@ -17,7 +17,7 @@ function VirtualProductPhotography() {
           <Title />
           <section className={styles.productSection}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/024a1e1529c9d6d4cfa469646e4097ed5ab5cdca?placeholderIfAbsent=true"
+              src="\static\images\modern-scandinavian-yellow-sofa-isolated-over-whit-2023-11-27-05-20-00-utc.jpg"
               alt="Yellow velvet sectional sofa"
               className={styles.productImage}
               loading="lazy"

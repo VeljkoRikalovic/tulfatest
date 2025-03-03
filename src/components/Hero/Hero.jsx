@@ -185,7 +185,7 @@ function Hero() {
         preload="auto"
       >
         <source
-          src="public\aerial-video-of-the-sunrise-in-the-dolomites-mount-2023-11-27-05-26-37-utc.mp4"
+          src="\static\images\aerial-video-of-the-sunrise-in-the-dolomites-mount-2023-11-27-05-26-37-utc.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
